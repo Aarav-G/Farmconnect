@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FarmConnect</title>
+    <style>
+        body{
+          background-image: url('Images/Back_New_high.png');
+          height: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+        body, html {
+          height: 100%;
+        }
+        h1{
+          text-align: center;
+          position:auto;
+          right:550px;
+          font-family:cursive;
+          color: White;
+          top:200px;
+          font-size:50px;
+        }
+        button.b1{
+          position:absolute;
+          right:400px;
+          top:300px;
+          border-radius:25px;
+          cursor: pointer;
+          background-color: F4F6F7;
+          color: black;
+          padding-top: 14px;
+          padding-bottom: 14px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 24px;
+          margin: 4px 4px;
+          border-radius:25px;
+          color : Black;
+          cursor: pointer;
+          font-family:cursive;
+        }
+        button.b2{
+          position:absolute;
+          right:650px;
+          top:300px;
+          border-radius:25px;
+          cursor: pointer;
+          background-color: F4F6F7;
+          color: Black;
+          padding-top: 14px;
+          padding-bottom: 14px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 24px;
+          margin: 4px 4px;
+          border-radius:25px;
+          cursor: pointer;
+          font-family:cursive;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="google_translate_element" ></div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+  <h1>FarmConnect</h1>
+  <a id = "link" href="auth/FarmerLogin.php">
+    <button type="button" name="button" class="b1">I am a Farmer</button>
+  </a>
+  <a id = "link" href="auth/BuyerLogin.php">
+    <button type="button" name="button" class="b2">I am a Customer</button>
+  </a>
+  </body>
+</html>
