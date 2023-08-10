@@ -22,3 +22,5 @@ It will serve as a log of income for the farmer, which can be used as a proof to
 banks while availing loans.
 The platform will act as an interface that gives a higher priority to the farmers
 who are nearer to the customer location.
+
+### Thank You
